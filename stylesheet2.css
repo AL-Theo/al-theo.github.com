@@ -1,0 +1,129 @@
+body {
+    background-color: white;
+    font-family: "raleway",
+        sans-serif;
+}
+
+/* Top arrangement */
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+/* Top words setup */
+.navigation a {
+    color: red;
+    font-weight: 200px;
+    letter-spacing: 2px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+/* text hover effects */
+.navigation a:hover {
+    color: red;
+    font-weight: 250px;
+    letter-spacing: 2px;
+    padding: 20px;
+    font-size: 25px;
+    text-shadow: 1px 1px gray; 
+}
+
+/* How to set up background image */
+#banner {
+    background-image: url("img/night2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px; 
+}
+
+/* Set up for image and content inside to expand and decrease according to screen size*/
+#banner .content h1 h3 {
+    position: relative;
+    top: 50px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-left: 50px;
+    color: aliceblue;
+    font-family: times;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+h3.space {
+    color: blanchedalmond;
+    font-size: 25px;
+    margin-left: 250px;
+    font-weight: 75;
+    margin-left: 150px;
+    opacity: .8;
+}
+
+/* scroll box with in the webpage */
+#intro {
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    width: 400px;
+    height: 1000px;
+    overflow: scroll;
+}
+
+h2 {
+    color: red;
+    font-size: 30px;
+    line-height: 48px;
+    padding: 20px 30px;
+    margin: 30px 20px;
+    font-weight: 400;
+}
+
+h4 {
+    font-family: times;
+    color: cadetblue;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    font-weight: 100;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 200;
+    color: forestgreen;
+    line-height: 30px;
+    font-family: garamond body copy;
+}
+
+/* How to set up box face color */
+.share a {
+    border: 2px solid red;
+    padding: 10px 20px;
+    margin: 10px;
+    position: relative;
+    border-radius: 5px;
+    background: red;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 100;
+    display: inline-block;
+}
+
+/* How to get box to change color when you hover over them */
+.share a:hover {
+    background: white;
+    border: 1px solid red;
+    color: red;
+}
+
+/* how to set up box in the bottom */
+.share {
+    text-align: center;
+    border: 1px solid LightGrey;
+    padding: 30px 30px;
+    margin: 0 auto;
+}
